@@ -76,6 +76,11 @@ input,select{
 </style>
 </head>
 <body>
+  <script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+</script>
+
 <div class="wrap">
   <div class="card">
     <h1>🔥 Luyện Morse — Phiên bản Ổn định</h1>
@@ -315,9 +320,5 @@ function userPlayMorse(data){
 }
 </script>
 </body>
-<script src="/socket.io/socket.io.js"></script>
-<script>
-  const socket = io();
-</script>
 
 </html>
